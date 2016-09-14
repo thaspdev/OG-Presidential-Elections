@@ -7,5 +7,5 @@ for i in range (2000,5000,5) :
            OGDatesArray.append(j)
    if len(OGDatesArray) >= 2 :
        print("Term ", termStart, "-", termEnd, " : ")
-       for x in arrayOGDates :
+       for x in OGDatesArray :
            print(x)
